@@ -1,0 +1,56 @@
+.container{
+    margin:3% 20% 0 20%;
+    border:1px solid grey;
+    border-radius:10px;
+}
+.add_post{
+    margin:2%;
+    display:flex;
+    align-items: center;
+}
+button{
+    margin:0 2%;
+    padding:10px;
+    border-radius:5px;
+    background-color: rgb(100, 100, 218);
+    color:white;
+    border:none;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(100,100,218);
+    border:1px solid rgb(100,100,218);
+}
+.post_container{
+margin:0 2% 2% 2%;
+border:1px solid grey;
+padding:0 2% 2% 2%;
+border-radius:5px;
+
+}
+.heading{
+    text-decoration:underline;
+    color:rgb(100,100,218);
+}
+.avathar{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    border-radius:50%;
+    background-color: #fdb3b3;
+    margin:0 5px;
+}
+.avathar_comments{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    border-radius:50%;
+    background-color: #74a8ec;
+    margin:0 5px;
+}
+.avathar_container{
+    display: flex;
+    align-items: center;
+}
